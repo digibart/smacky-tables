@@ -1,0 +1,27 @@
+[submodule "system"]
+	path = system
+	url = https://github.com/kohana/core.git
+[submodule "modules/database"]
+	path = modules/database
+	url = https://github.com/kohana/database.git
+[submodule "modules/orm"]
+	path = modules/orm
+	url = https://github.com/kohana/orm.git
+[submodule "modules/pagination"]
+	path = modules/pagination
+	url = https://github.com/digibart/pagination.git
+[submodule "modules/auth"]
+	path = modules/auth
+	url = https://github.com/kohana/auth.git
+[submodule "modules/userguide"]
+	path = modules/userguide
+	url = https://github.com/kohana/userguide.git
+[submodule "modules/cache"]
+	path = modules/cache
+	url = https://github.com/kohana/cache.git
+[submodule "modules/killeradmin"]
+	path = modules/killeradmin
+	url = https://github.com/digibart/killeradmin.git
+[submodule "modules/captcha"]
+	path = modules/captcha
+	url = https://github.com/mauclair/kohana-captcha.git
