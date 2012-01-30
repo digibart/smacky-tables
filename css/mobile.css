@@ -1,0 +1,22 @@
+.row, .body, .container {
+width: 100%;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, .span-11, .span-12 {
+width: auto;
+float: none;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+/* Type presets */
+
+body {
+font-size: 1.5em;
+}

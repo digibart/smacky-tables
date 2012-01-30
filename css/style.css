@@ -1,0 +1,50 @@
+/*************************************
+   WELCOME TO THE CUSTOM STYLESHEET
+--------------------------------------
+    Put your custom styles in here.
+/**************************************/
+
+html {
+	background: url(/images/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/background.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/background.jpg', sizingMethod='scale')";
+	
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-size: 1.2em;
+}
+
+.container {
+	margin-top: 20%;
+	background: rgba(255,255,255,0.8);
+}
+
+.row {
+	max-width: 800px;
+}
+
+dt {
+	text-align: right;
+}
+
+dd {
+	margin-top: .8em;
+	margin-bottom: .4em;
+}
+
+dd input[type="text"] {
+	width: 30%;
+}
+
+dd span.error {
+	position: absolute;
+	padding: .3em;
+	margin: -.3em 0 0 1em;
+}
