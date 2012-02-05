@@ -63,14 +63,14 @@ I18n::lang('en-us');
  */
 switch (Arr::get($_SERVER, 'SERVER_ADDR'))
 {
-	case "10.75.45.17":
+	case Arr::get($_SERVER, 'REMOTE_ADDR'):
 		Kohana::$environment = KOHANA::TESTING;
 		break;
 	default:
 		Kohana::$environment = KOHANA::PRODUCTION;
 		break;
 }
-
+Kohana::$environment = KOHANA::PRODUCTION;
 /**
  * Initialize Kohana, setting the default options.
  *
@@ -87,7 +87,7 @@ switch (Arr::get($_SERVER, 'SERVER_ADDR'))
 Kohana::init(array(
 	'base_url'   => '/',
 	'index_file' => false,
-	'errors' => (Kohana::$environment == KOHANA::PRODUCTION),
+	'errors' => true,
 	'profiling' => (Kohana::$environment == KOHANA::DEVELOPMENT),
 	'caching' => (Kohana::$environment == KOHANA::PRODUCTION)
 ));

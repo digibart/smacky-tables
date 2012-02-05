@@ -29,8 +29,6 @@ class Kohana_Exception extends Kohana_Kohana_Exception
 				'message' => rawurlencode($e->getMessage())
 			);
 			
-			echo Debug::vars($e);
-
 			if ($e instanceof Http_Exception)
 			{
 				$attributes['action'] = $e->getCode();
